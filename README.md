@@ -1,137 +1,186 @@
-# Basic-Contact-Book-Manager
+# 📒 Basic Contact Book Manager
 
-Here’s a sample `README.md` file for your GitHub repository:
+![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white)
+![CLI Application](https://img.shields.io/badge/Application-Command%20Line-blue?style=for-the-badge)
+![Data Structures](https://img.shields.io/badge/Data%20Structures-Contact%20Management-green?style=for-the-badge)
 
-```markdown
-# Contact Manager
+The **Basic Contact Book Manager** is a **Java-based command-line application** designed to efficiently manage personal contacts.
 
-A simple **Java-based Contact Manager application** to efficiently manage, search, and organize contacts. This application provides a user-friendly command-line interface for adding, editing, deleting, and displaying contacts.
+It allows users to **add, edit, delete, search, and organize contacts** through a simple and intuitive command-line interface.
 
----
-
-## Features
-
-- **Add Contacts**: Add a new contact with a unique phone number.
-- **Edit Contacts**: Update the phone number of an existing contact.
-- **Delete Contacts**: Remove a contact using its phone number.
-- **Search Contacts**:
-  - By Name
-  - By Phone Number
-- **Sort Contacts**: Sort all contacts alphabetically by name.
-- **Display All Contacts**: View the list of all saved contacts.
+This project demonstrates the use of **core Java concepts, data structures, and input handling** to build a practical contact management system.
 
 ---
 
-## How to Use
+# 📌 Table of Contents
 
-### Prerequisites
-- Install **Java** (JDK 8 or later).
-
-### Running the Application
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/your-username/contact-manager.git
-   ```
-2. Navigate to the project directory:
-   ```bash
-   cd contact-manager
-   ```
-3. Compile the source code:
-   ```bash
-   javac Main.java
-   ```
-4. Run the application:
-   ```bash
-   java Main
-   ```
+- Introduction  
+- Features  
+- Application Workflow  
+- Installation  
+- Usage  
+- Technology Stack  
+- Error Handling  
+- Future Enhancements  
+- Author  
+- License  
 
 ---
 
-## Menu Options
+# 📖 Introduction
 
-The application provides the following options:
-1. **Add Contact**: Add a new contact by entering the name and phone number.
-2. **Edit Contact**: Modify the phone number of an existing contact by name.
-3. **Delete Contact**: Delete a contact using its phone number.
-4. **Search Contact by Name**: Find contacts matching a given name.
-5. **Search Contact by Phone Number**: Find a contact by its phone number.
-6. **Sort Contacts**: Sort the list of contacts alphabetically.
-7. **Display All Contacts**: Show all stored contacts.
-8. **Exit**: Exit the application.
+Managing contacts manually can become difficult as the number of entries grows.
 
----
+The **Basic Contact Book Manager** provides a lightweight solution to manage contacts efficiently using a command-line interface. The system ensures **organized storage, easy searching, and basic data management operations**.
 
-## Sample Input/Output
+This project highlights practical usage of:
 
-### Adding a Contact
-```
-Enter name: John Doe
-Enter phone number: 1234567890
-Contact added successfully.
-```
-
-### Searching a Contact by Name
-```
-Enter name of the contact to search: John
-Contacts with the name 'John':
-Name: John Doe, Phone: 1234567890
-```
+- Java collections
+- User input handling
+- Menu-driven program design
+- Basic CRUD operations
 
 ---
 
-## Error Handling
+# ✨ Features
 
-- Ensures phone numbers are unique.
-- Validates that phone numbers are integers.
-- Handles invalid input gracefully with error messages.
+### ➕ Add Contact
+Add a new contact by entering the **name and phone number**.
 
----
+### ✏️ Edit Contact
+Modify the **phone number of an existing contact**.
 
-## Technologies Used
+### ❌ Delete Contact
+Remove a contact using the **phone number**.
 
-- **Language**: Java
-- **IDE**: IntelliJ IDEA (Optional)
+### 🔍 Search Contacts
+Search contacts by:
 
----
+- **Name**
+- **Phone Number**
 
-## Future Enhancements
+### 🔤 Sort Contacts
+Sort the contact list **alphabetically by name**.
 
-- Add functionality to export and import contacts.
-- Integrate a graphical user interface (GUI) for better user experience.
-- Add validation for phone number length and format.
-
----
-
-## Contributing
-
-Contributions are welcome! If you'd like to enhance this project:
-1. Fork the repository.
-2. Create a feature branch:
-   ```bash
-   git checkout -b feature-name
-   ```
-3. Commit your changes:
-   ```bash
-   git commit -m "Add feature"
-   ```
-4. Push to the branch:
-   ```bash
-   git push origin feature-name
-   ```
-5. Submit a pull request.
+### 📋 Display Contacts
+View all stored contacts in an organized format.
 
 ---
 
-## License
+# ⚙️ Application Workflow
 
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+1. Launch the program.
+2. The application displays a **menu with multiple options**.
+3. The user selects an option.
+4. The system performs the requested operation.
+5. The menu reappears until the user chooses to exit.
 
 ---
 
-## Author
+# 🛠 Installation
 
-- **Ayushman Behera**  
-  Second-year B.Tech CSE (DSML) student at Lovely Professional University.
+## Requirements
+
+- Java **JDK 8 or higher**
+
+---
+
+## Setup Instructions
+
+Clone the repository:
+
+```bash
+git clone https://github.com/your-username/Basic-Contact-Book-Manager.git
 ```
 
-Feel free to customize the URL for cloning, your GitHub username, or any specific features you want to highlight.
+Navigate to the project directory:
+
+```bash
+cd Basic-Contact-Book-Manager
+```
+
+Compile the program:
+
+```bash
+javac Main.java
+```
+
+Run the application:
+
+```bash
+java Main
+```
+
+---
+
+# ▶️ Usage
+
+The program provides the following menu options:
+
+1. **Add Contact** – Add a new contact with name and phone number  
+2. **Edit Contact** – Modify the phone number of an existing contact  
+3. **Delete Contact** – Remove a contact using the phone number  
+4. **Search Contact by Name** – Find contacts by name  
+5. **Search Contact by Phone Number** – Find a contact by phone number  
+6. **Sort Contacts** – Arrange contacts alphabetically  
+7. **Display All Contacts** – Show all saved contacts  
+8. **Exit** – Close the application
+
+---
+
+# 💻 Technology Stack
+
+### Programming Language
+- Java
+
+### Concepts Used
+- Object-Oriented Programming (OOP)
+- Data Structures
+- Menu-driven programming
+- CRUD operations
+
+### Development Tools
+- IntelliJ IDEA / VS Code
+- Git
+- GitHub
+
+---
+
+# ⚠️ Error Handling
+
+The application includes basic input validation:
+
+- Ensures **phone numbers are unique**
+- Prevents **duplicate entries**
+- Handles **invalid input gracefully**
+- Displays user-friendly error messages
+
+---
+
+# 🔮 Future Enhancements
+
+Potential improvements include:
+
+- GUI-based contact manager using **Java Swing / JavaFX**
+- Contact import and export functionality
+- File-based or database storage
+- Phone number validation and formatting
+- Search filters and grouping of contacts
+
+---
+
+# 👤 Author
+
+**Ayushman Behera**
+
+🎓 B.Tech – Computer Science & Engineering (Data Science)  
+🏫 Lovely Professional University  
+
+🔗 GitHub: https://github.com/ayubeh1513  
+📧 Email: ayushmanbehera689@gmail.com
+
+---
+
+# 📄 License
+
+This project is licensed under the **MIT License**.
