@@ -37,7 +37,7 @@ This project highlights practical usage of:
 
 - Java collections
 - User input handling
-- Menu-driven program design
+- Menu-driven program designs
 - Basic CRUD operations
 
 ---
